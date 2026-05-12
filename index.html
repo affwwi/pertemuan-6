@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge_23115897</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+          crossorigin="anonymous">
+
+    <link href="output.css" rel="stylesheet">
+
+    <style>
+        .hero-left {
+            background: #e8f4fd;
+            padding: 55px 45px;
+            position: relative;
+            overflow: hidden;
+            min-height: 320px;
+        }
+        .hero-right {
+            background: #1565c0;
+            position: relative;
+            overflow: hidden;
+            min-height: 320px;
+        }
+        .btn-try {
+            background: white;
+            border: 2px solid #333;
+            border-radius: 25px;
+            padding: 8px 28px;
+            font-weight: 700;
+            font-size: 0.88rem;
+            cursor: pointer;
+        }
+        .btn-try:hover { background: #f5f5f5; }
+    </style>
+</head>
+<body class="bg-white">
+
+<section>
+    <div class="row g-0">
+        <div class="col-md-6 hero-left">
+            <svg style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;"
+                  viewBox="0 0 500 360" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="470" cy="360" rx="200" ry="180" fill="rgba(100,181,246,.25)"/>
+                <ellipse cx="-20" cy="-10" rx="110"  ry="110"  fill="rgba(100,181,246,.2)"/>
+                <path d="M0 290 Q90 220 180 290 T360 260"  stroke="#90caf9" stroke-width="2.5" fill="none"/>
+                <path d="M20 330 Q110 260 200 330 T400 305" stroke="#90caf9" stroke-width="2"   fill="none"/>
+                <circle cx="290" cy="70"  r="6" fill="#1565c0" opacity=".55"/>
+                <circle cx="60"  cy="160" r="5" fill="#1565c0" opacity=".45"/>
+                <circle cx="390" cy="200" r="5" fill="#1565c0" opacity=".4"/>
+                <circle cx="430" cy="90"  r="4" fill="#1565c0" opacity=".5"/>
+                <circle cx="160" cy="310" r="5" fill="#1565c0" opacity=".4"/>
+            </svg>
+
+            <div style="position:relative;z-index:1;">
+                <h1 class="fw-bold" style="color:#1a237e;font-size:2.4rem;line-height:1.15;">
+                    Mobile<br>
+                    <span>• Development</span>
+                </h1>
+                <p class="text-muted mt-3" style="font-size:.83rem;max-width:340px;line-height:1.65;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Morbi a egestas felis, nec posuere tortor.
+                </p>
+                <button class="btn-try mt-3">Try It Free</button>
+            </div>
+        </div>
+
+        <div class="col-md-6 hero-right d-flex align-items-center justify-content-center">
+            <svg viewBox="0 0 440 310" style="max-width:420px;width:90%;z-index:1;" xmlns="http://www.w3.org/2000/svg">
+                <rect x="165" y="18"  width="105" height="188" rx="13" fill="white" opacity=".96"/>
+                <rect x="174" y="34"  width="87"  height="138" rx="5"  fill="#e3f2fd"/>
+                <circle cx="217" cy="200" r="6" fill="#bbb"/>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-top border-bottom">
+    <div class="container-fluid px-3">
+        <a class="navbar-brand fw-bold text-dark" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navMain">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active fw-semibold" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1 class="text-5xl font-bold italic text-blue-500 m-5 text-center">
+    Tailwind CSS
+</h1>
+
+<div class="flex justify-center mt-2">
+    <img src="https://img.freepik.com/free-vector/mobile-development-concept_52683-28209.jpg"
+         alt="Mobile Development"
+         class="w-1/2 rounded shadow">
+</div>
+
+<div class="bg-[#1a3a6b] text-white text-center px-16 py-8 mt-6">
+    <p class="text-sm leading-relaxed mb-0">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab dolorum deleniti incidunt?
+        Dolores nisi mollitia iure voluptate distinctio.
+    </p>
+</div>
+
+<div class="container-fluid px-4 pb-5 mt-5">
+    <div class="row">
+        <div class="col-md-7">
+            <h2 class="fw-bold mt-2">Welcome!</h2>
+            <table class="table table-bordered mt-3">
+                <thead class="table-light">
+                    <tr><th>#</th><th>First</th><th>Last</th><th>Handle</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Mark</td><td>Otto</td><td>@mdo</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-5 d-flex flex-column align-items-center pt-3">
+            <svg viewBox="0 0 200 230" style="width:185px;" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="100" cy="83" rx="43" ry="48" fill="#FDBCB4"/>
+                <path d="M28 228 Q34 165 62 152 L100 145 L138 152 Q166 165 172 228 Z" fill="#F57C00"/>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
